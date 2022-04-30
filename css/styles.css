@@ -1,0 +1,116 @@
+body{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.section-heading{
+  font-family: 'Montserrat-bold', sans-serif;
+  color: #dd23d1;
+  text-align: center;
+}
+
+.section-sub-heading{
+  font-family: 'Kalam', cursive;
+}
+
+.section-container{
+  border-width: 20px;
+  border-color: white;
+  background-color: #dd23d1;
+  text-align: center;
+}
+
+.container-inner{
+  background-color: #fff;
+  margin: 0 4%;
+  padding-bottom: 5%;
+}
+
+.line{
+  width: 70%;
+  margin: 0 auto 2rem;
+}
+
+/* samples */
+
+.samples-image{
+  width: 95%;
+  margin: 0 auto;
+  padding: 2% 0;
+  display: flex;
+
+}
+
+/* carousel */
+
+.row .carousel-image-column{
+  padding: 0 0;
+}
+
+.carousel-container{
+  padding: 1% 10% 7%;
+  /* margin: 1% 0; */
+}
+
+.order-now-button{
+  margin-bottom: 5%;
+}
+
+/*PRICES */
+/* .price-image{
+  width: 50%;
+} */
+
+.col-lg-4 .price-image{
+  width: 95%;
+}
+
+/* clients */
+.client-image{
+  width: 90%;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon{
+  height: 100px;
+  width: 100px;
+  outline: black;
+  border-radius: 50%;
+  background-size: 100%, 100%;
+  border: 1px solid black;
+  background-image: none;
+
+}
+
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-next-icon:after{
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
+
+/* FOOTER */
+.footer{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 9%;
+}
+.footer:hover{
+  width: 10%;
+}
+
+@media (min-width: 768px) {
+  .footer{
+    width: 5%;
+  }
+
+  .footer:hover{
+    width: 6%;
+  }
+}
